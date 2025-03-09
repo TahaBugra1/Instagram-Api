@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tahabugra</groupId>
+  <artifactId>instagram-api</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Test</name>
+  <description>instagram4j ile instagrama bağlanma</description>
+  
+  <dependencies>
+	<dependency>
+		<groupId>org.brunocvcunha.instagram4j</groupId>
+		<artifactId>instagram4j</artifactId>
+		<version>1.13</version>
+	</dependency>
+	
+	<dependency>
+		<groupId>javax.mail</groupId>
+		<artifactId>mail</artifactId>
+		<version>1.4.7</version>
+	</dependency>
+</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+</project>
