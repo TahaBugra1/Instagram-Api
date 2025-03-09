@@ -60,7 +60,7 @@ public class Main {
 		
 		System.out.print("Şifrenizi giriniz: ");
 		password = scanner.nextLine();
-		if(username.equals("kimbusik9192") && password.equals("bugra44.")) {
+		if(username.equals("TahaBugra") && password.equals("bugra")) {
 			Instagram4j instagram = Instagram4j.builder().username(username).password(password).build();
 			instagram.setup();
 			try {
