@@ -7,17 +7,7 @@
   <description>instagram4j ile instagrama bağlanma</description>
   
   <dependencies>
-	<dependency>
-		<groupId>org.brunocvcunha.instagram4j</groupId>
-		<artifactId>instagram4j</artifactId>
-		<version>1.13</version>
-	</dependency>
-	
-	<dependency>
-		<groupId>javax.mail</groupId>
-		<artifactId>mail</artifactId>
-		<version>1.4.7</version>
-	</dependency>
+	//Instagram API Key Kısmı
 </dependencies>
 
 	<build>
